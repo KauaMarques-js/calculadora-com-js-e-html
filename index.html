@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="main-container">
+        <h1>calculadora</h1>
+        <div id="calculadora">
+             <div class="main">
+                <div class="display">
+                    <input type="text" name="" id="disp">
+                </div>
+             <div id="botoes">
+                <input type="button" value="ac" onclick="ac()">
+                <input type="button" value="c" onclick="c()">
+                <input type="button" value="%" onclick="divisao('/')">
+                <br>
+                <input type="button" value="7" onclick="sete()"> 
+                <input type="button" value="8" onclick="oito()">
+                <input type="button" value="9" onclick="nove()">
+                <input type="button" value="x" onclick="x('*')">
+                <br>
+                <input type="button" value="4" onclick="quatro()">
+                <input type="button" value="5" onclick="cinco()">
+                <input type="button" value="6" onclick="seis()">
+                <input type="button" value="-" onclick="menos('-')">
+                <br>
+                <input type="button" value="1" onclick="um()">
+                <input type="button" value="2" onclick="dois()">
+                <input type="button" value="3" onclick="tres()">
+                <input type="button" value="+" onclick="mais('+')"> 
+                <br>
+                <input type="button" value="**" onclick="poten('**')">
+                <input type="button" value="0" onclick="zero()">
+                <input type="button" value="=" onclick="igual()">
+                
+             </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

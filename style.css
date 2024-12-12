@@ -1,0 +1,40 @@
+body{
+    background: linear-gradient(90deg,  rgb(62, 62, 63) 0%,  rgb(93, 94, 94) 50%, rgb(130, 131, 131) 100%);
+    font: 20pt arial;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+#calculadora{
+    background-color: white;
+    padding: 10px;
+    border-radius: 7px;
+}
+#disp{
+    width: 159px;
+}
+h1{
+    color: white;
+}
+input{
+    padding: 7px;
+    margin: 3px;
+    width: 50px;
+    border-radius: 14px;
+    border-color: gray;
+    outline: none;
+    font: 15pt arial;
+}
+input:hover{
+   background-color: rgb(170, 169, 169);
+}
+footer{
+    margin: 100px;
+    text-align: center;
+    color: white;
+    font-style: italic;
+    
+}
